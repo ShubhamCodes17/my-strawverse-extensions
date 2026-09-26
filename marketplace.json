@@ -1,4 +1,9 @@
 {
-  "Anime": [],
+  "Anime": [
+    {
+      "name": "AnimePahe",
+      "version": "1.0.0"
+    }
+  ],
   "Manga": []
 }

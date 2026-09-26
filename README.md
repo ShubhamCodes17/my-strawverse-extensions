@@ -1,22 +1,18 @@
 # My StrawVerse Extensions
 
-This repository is an extension repository for the modified StrawVerse app.
+## AnimePahe
 
-## Structure
+This repository contains a StrawVerse Anime extension for AnimePahe.
 
-- `marketplace.json` — lists available Anime and Manga extensions.
-- `extensions/Anime/` — Anime scraper JavaScript files.
-- `extensions/Manga/` — Manga scraper JavaScript files.
-- `ico/` — extension icons.
+Repository root:
+- `marketplace.json`
+- `extensions/Anime/AnimePahe.js`
+- `ico/AnimePahe.ico`
 
-## Connecting to StrawVerse
+### Important
 
-Use this repository's raw-content base URL in:
+The extension currently implements AnimePahe search, metadata, episode lists, and source-link discovery. AnimePahe's playback host/resolution layer can change independently of the catalog API, so direct HLS playback may require a resolver update when the upstream player changes.
 
-**Extensions → Repository**
-
-Example:
+Use the repository base URL in StrawVerse:
 
 `https://raw.githubusercontent.com/YOUR_USERNAME/my-strawverse-extensions/main`
-
-The repository must expose `marketplace.json` at its root.
